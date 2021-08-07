@@ -37,12 +37,24 @@ class MelonType(object):
         # Fill in the rest
 
 # melon1 = MelonType('yw', 'Field 2', 7, None, None, 'Melon 1')
-# print(melon1)
 
 def make_melon_types():
     """Returns a list of current melon types."""
 
     all_melon_types = []
+
+    musk = MelonType(
+        "musk",
+        "Muskmelon",
+        1998,
+        "green",
+        True,
+        True)
+    musk.add_pairing("mint")
+    all_melon_types.append(musk)
+
+    
+
 
     # Fill in the rest
 
